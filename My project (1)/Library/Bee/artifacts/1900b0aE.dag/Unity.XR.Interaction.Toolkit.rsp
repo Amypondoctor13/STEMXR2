@@ -129,7 +129,6 @@
 -define:XR_HANDS_1_1_OR_NEWER
 -define:XR_HANDS_1_3_OR_NEWER
 -define:XR_MANAGEMENT_4_0_OR_NEWER
--define:OPENXR_1_6_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/Managed/UnityEditor.Graphs.dll"

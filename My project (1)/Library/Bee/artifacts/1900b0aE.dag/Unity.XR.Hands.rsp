@@ -124,7 +124,6 @@
 -define:USE_STICK_CONTROL_THUMBSTICKS
 -define:UNITY_OPENXR_PACKAGE
 -define:UNITY_OPENXR_PACKAGE_1_2
--define:UNITY_OPENXR_PACKAGE_1_6
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/Managed/UnityEditor.Graphs.dll"

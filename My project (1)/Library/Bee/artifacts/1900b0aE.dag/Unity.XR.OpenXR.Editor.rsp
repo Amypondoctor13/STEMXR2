@@ -120,7 +120,7 @@
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:USE_STICK_CONTROL_THUMBSTICKS
 -define:XR_MGMT_3_2_0_OR_NEWER
--define:XR_MGMT_4_4_0_OR_NEWER
+-define:PROJECT_VALIDATION_AVAILABLE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
@@ -336,7 +336,16 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.4.3/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.4.3/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.4.3/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.4.3/Lib/Editor/PlasticSCM/unityplastic.dll"
 -r:"Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Editor.ref.dll"
@@ -348,28 +357,24 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.32f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/BootConfig.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/BuildHelperUtils.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/BuildTargetSupport/UWPCoreWindowBuildHooks.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/FeatureSupport/BootConfigBuilder.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/FeatureSupport/DPadInteractionCustomEditor.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/FeatureSupport/FeatureHelpers.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/FeatureSupport/KnownFeatureSets.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/FeatureSupport/OpenXRChooseRuntimeLibraries.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/FeatureSupport/OpenXRFeatureBuildHooks.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/FeatureSupport/OpenXRFeatureEditor.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/FeatureSupport/OpenXRFeatureSetAttribute.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/FeatureSupport/OpenXRFeatureSetManager.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/FeatureSupport/OpenXRFeatureSettingsEditor.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/FeatureSupport/OpenXRFeatureUICommon.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/FeatureSupport/OpenXRLoaderUI.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/OpenXRBuildProcessor.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/OpenXREditorSettings.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/OpenXRMangementSettings.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/OpenXRPackageSettings.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/OpenXRProjectValidationRulesSetup.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/OpenXRRuntimeSelector.cs"
-"Library/PackageCache/com.unity.xr.openxr@1.10.0/Editor/PackageSettingsEditor.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/BuildHelperUtils.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/FeatureSupport/FeatureHelpers.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/FeatureSupport/KnownFeatureSets.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/FeatureSupport/OpenXRChooseRuntimeLibraries.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/FeatureSupport/OpenXRFeatureBuildHooks.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/FeatureSupport/OpenXRFeatureEditor.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/FeatureSupport/OpenXRFeatureSetAttribute.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/FeatureSupport/OpenXRFeatureSetManager.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/FeatureSupport/OpenXRFeatureSettingsEditor.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/FeatureSupport/OpenXRFeatureUICommon.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/FeatureSupport/OpenXRLoaderUI.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/OpenXRBuildProcessor.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/OpenXREditorSettings.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/OpenXRMangementSettings.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/OpenXRPackageSettings.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/OpenXRProjectValidationRulesSetup.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/OpenXRRuntimeSelector.cs"
+"Library/PackageCache/com.unity.xr.openxr@1.4.2/Editor/PackageSettingsEditor.cs"
 -langversion:9.0
 /deterministic
 /optimize+

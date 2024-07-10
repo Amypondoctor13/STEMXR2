@@ -1,5 +1,9 @@
 sceneSetups:
-- path: Assets/Samples/XR Hands/1.4.1/HandVisualizer/HandVisualizer.unity
+- path: Assets/Scenes/Andrea's Scene.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
+- path: Assets/Samples/XR Hands/1.4.1/HandVisualizer/HandVisualizer.unity
+  isLoaded: 1
+  isActive: 0
   isSubScene: 0
